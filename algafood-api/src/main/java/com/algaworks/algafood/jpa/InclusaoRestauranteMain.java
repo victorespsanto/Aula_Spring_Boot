@@ -35,7 +35,7 @@ public class InclusaoRestauranteMain {
 		restaurante2.setNome("Nissin");
 		
 		BigDecimal txFrete2 = new BigDecimal("15.0");		
-		restaurante1.setTaxaFrete(txFrete2);
+		restaurante2.setTaxaFrete(txFrete2);
 		
 		restaurante1 = restauranteRepository.salvar(restaurante1);
 		restaurante2 = restauranteRepository.salvar(restaurante2);
